@@ -62,10 +62,6 @@ public class Driver {
 		Point b = new Point(32.001945, -81.116934);
 		Point c = new Point(31.990311, -81.069813);
 		Point d = new Point(32.076528, -81.096666);
-
-		Driver driver1 = new Driver("Driver 1", a, b);
-		Driver driver2 = new Driver("Driver 2", c, d);
-		System.out.println(driver1.getDetourDistance(driver2));
 		System.out.println(getShortestDetour(new Driver("Driver 1", a, b), new Driver("Driver 2", c, d)));
 	}
 }
